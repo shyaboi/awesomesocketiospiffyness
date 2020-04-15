@@ -16,7 +16,7 @@ class Nard extends React.Component {
     }
 
     componentDidMount() {
-         this.socket = io('https://6056e275.ngrok.io')
+         this.socket = io('http://6056e275.ngrok.io')
         // this.socket = io('http://localhost:5000')
 
         this.socket.on('message', (message) => {
