@@ -2,6 +2,7 @@
   "name": "socketiostuff",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,7 +15,8 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start && node server.js",
+    "start": "react-scripts start",
+    "dev": "(cd server && npm run start) & npm run start",
     "start:prod": "node server.js",
     "start:dev": "node server.js",
     "build": "react-scripts build",
