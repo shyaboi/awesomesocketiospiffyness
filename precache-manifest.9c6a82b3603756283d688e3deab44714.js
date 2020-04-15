@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b7a75a7fa87f6fb7c92755272a058a3",
+    "revision": "1f9d51486d6b2b5e0f34605b4649d5be",
     "url": "/awesomesocketiospiffyness/index.html"
   },
   {
-    "revision": "adb9d43df4931b7e4d0e",
+    "revision": "73abc6df737c5747a05d",
     "url": "/awesomesocketiospiffyness/static/css/main.dd5894fa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awesomesocketiospiffyness/static/js/2.6f62d445.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "adb9d43df4931b7e4d0e",
-    "url": "/awesomesocketiospiffyness/static/js/main.2f1845cc.chunk.js"
+    "revision": "73abc6df737c5747a05d",
+    "url": "/awesomesocketiospiffyness/static/js/main.400761b6.chunk.js"
   },
   {
     "revision": "b03caecbafd37aea6f2a",
