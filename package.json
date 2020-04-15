@@ -15,9 +15,8 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
+    "deploy": "gh-pages-deploy -- 'A custom commit message'",
     "start": "react-scripts start", 
-    "start:prod": "cd src/components/chat && npm run start",
-    "start:dev": "cd src/components/chat && npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
