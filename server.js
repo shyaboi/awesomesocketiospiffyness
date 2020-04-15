@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 const http = require('http').createServer()
 const io = require('socket.io')(http);
+
 
 io.on('connection', (socket) => {
     socket.on('message', (message) => {
