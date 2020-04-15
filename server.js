@@ -13,4 +13,6 @@ io.on('connection', (socket) => {
 http.listen(port)
 console.log("running on port:" + port)
 
-
+// package json route for chat folkder
+// "start:prod": "cd src/components/chat && npm run start",
+// "start:dev": "cd src/components/chat && npm run start",
