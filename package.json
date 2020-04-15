@@ -15,6 +15,7 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
+    "dong": "cd chat npm start",
     "start": "react-scripts start", 
     "start:prod": "node server.js",
     "start:dev": "(cd server && npm run start) & npm run start",
