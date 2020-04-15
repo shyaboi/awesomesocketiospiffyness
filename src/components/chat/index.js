@@ -17,7 +17,7 @@ class Nard extends React.Component {
 
     componentDidMount() {
 
-        this.socket = io('https://thawing-cliffs-13077.herokuapp.com/')
+        this.socket = io('http://localhost:3000')
         this.socket.on('message', (message) => {
             this.setState({messages: [message, ...this.state.messages]})
               })
