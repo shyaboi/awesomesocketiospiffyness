@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 import Nard from "../src/components/chat";
-import io from "socket.io-client";
 
 function App() {
 
         return (
-            <div>shyaboi
+            <div>
               <Nard />
              </div>
         );
