@@ -17,7 +17,7 @@ class Nard extends React.Component {
 
     componentDidMount() {
 
-        this.socket = io('http://localhost:3000')
+        this.socket = io('http://localhost:5000')
         this.socket.on('message', (message) => {
             this.setState({messages: [message, ...this.state.messages]})
               })
