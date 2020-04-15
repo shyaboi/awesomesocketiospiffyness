@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/awesomesocketiospiffyness/static/css/main.dd5894fa.chunk.css",
-    "main.js": "/awesomesocketiospiffyness/static/js/main.652bcb48.chunk.js",
-    "main.js.map": "/awesomesocketiospiffyness/static/js/main.652bcb48.chunk.js.map",
+    "main.js": "/awesomesocketiospiffyness/static/js/main.202dfc13.chunk.js",
+    "main.js.map": "/awesomesocketiospiffyness/static/js/main.202dfc13.chunk.js.map",
     "runtime-main.js": "/awesomesocketiospiffyness/static/js/runtime-main.fb37cae1.js",
     "runtime-main.js.map": "/awesomesocketiospiffyness/static/js/runtime-main.fb37cae1.js.map",
     "static/js/2.6f62d445.chunk.js": "/awesomesocketiospiffyness/static/js/2.6f62d445.chunk.js",
     "static/js/2.6f62d445.chunk.js.map": "/awesomesocketiospiffyness/static/js/2.6f62d445.chunk.js.map",
     "index.html": "/awesomesocketiospiffyness/index.html",
-    "precache-manifest.04800a1d58920a6fa2f200d90e51f3af.js": "/awesomesocketiospiffyness/precache-manifest.04800a1d58920a6fa2f200d90e51f3af.js",
+    "precache-manifest.7b6758e02a6a93cd6994558d8832fc57.js": "/awesomesocketiospiffyness/precache-manifest.7b6758e02a6a93cd6994558d8832fc57.js",
     "service-worker.js": "/awesomesocketiospiffyness/service-worker.js",
     "static/css/main.dd5894fa.chunk.css.map": "/awesomesocketiospiffyness/static/css/main.dd5894fa.chunk.css.map",
     "static/js/2.6f62d445.chunk.js.LICENSE.txt": "/awesomesocketiospiffyness/static/js/2.6f62d445.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fb37cae1.js",
     "static/js/2.6f62d445.chunk.js",
     "static/css/main.dd5894fa.chunk.css",
-    "static/js/main.652bcb48.chunk.js"
+    "static/js/main.202dfc13.chunk.js"
   ]
 }
