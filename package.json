@@ -18,7 +18,7 @@
   "homepage": "https://shyaboi.github.io/awesomesocketiospiffyness",
   "scripts": {
     "server": "node server.js",
-    "start": "react-scripts start ",
+    "start": "react-scripts start && npm run server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
