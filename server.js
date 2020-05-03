@@ -1,14 +1,17 @@
-const express = require('express')
-const app = express()
-const port = 5000
-const http = require('http').createServer()
-const io = require('socket.io')(http);
+const app = require('express')();
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
+
+// WARNING: app.listen(80) will NOT work here!
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
 
 io.on('connection', (socket) => {
     socket.on('message', (message) => {
         socket.broadcast.emit('message', message)
     })
 })
-
-http.listen(port)
-console.log("running on port:" + port)
+console.log("running on port:" + server)
+server.listen(80);
